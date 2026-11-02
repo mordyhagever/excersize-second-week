@@ -38,4 +38,3 @@ def calculate_bmi(weight, height):
     return round(weight / (height * height), 1)
 #print(f"BMI: {calculate_bmi(70, 1.75)}")
 
-#tar5
