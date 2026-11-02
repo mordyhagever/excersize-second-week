@@ -23,5 +23,31 @@ def average(*numbers):
 # except ValueError as e:
 #     print("error", e)
 
+#tar3
+
+def format_profile(name, **details):
+    return {"name": name, **details}
+# print(format_profile("Dana", age=24, city="Haifa"))
+# print(format_profile("Avi"))
+
+#tar4
+
+products = [("laptop", 3500), ("Mouse", 80), ("Desk", 900)]
+
+sort = sorted(products, key=lambda p: p[1])
+#1
+# for item in sort:
+#     print(*item)
+
+#2
+#print(f"Most expensive: {sort[-1][0]}")
+
+
+#tar5
+
+
+
+
+
 
 
