@@ -33,8 +33,23 @@ add_ten = list(map(lambda p: p + 10, filtered))
 words = ["banana", "fig", "cherry", "kiwi"]
 students = [("Dana", 92), ("Avi", 78), ("Noa", 85)]
 
-print(sorted(words, key=len))
-print(max(words, key=len))
-sorted_students = sorted(students, key=lambda p: p[1])
-for student in sorted_students:
-    print(student[0])
+# print(sorted(words, key=len))
+# print(max(words, key=len))
+# sorted_students = sorted(students, key=lambda p: p[1])
+# for student in sorted_students:
+#     print(student[0])
+
+
+#tar4
+
+def make_discount(percent):
+    def calc(price):
+        return price - price * (percent / 100)
+    return calc
+
+ten_off = make_discount(10)
+half_price = make_discount(50)
+
+# print(ten_off(200))
+# print(half_price(200))
+
