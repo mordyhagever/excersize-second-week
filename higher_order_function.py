@@ -33,3 +33,8 @@ add_ten = list(map(lambda p: p + 10, filtered))
 words = ["banana", "fig", "cherry", "kiwi"]
 students = [("Dana", 92), ("Avi", 78), ("Noa", 85)]
 
+print(sorted(words, key=len))
+print(max(words, key=len))
+sorted_students = sorted(students, key=lambda p: p[1])
+for student in sorted_students:
+    print(student[0])
