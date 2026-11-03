@@ -10,3 +10,9 @@ discount = Modules.prices.apply_discount(200, 10)
 with_vat = discount + Modules.prices.add_vat(discount)
 print(discount)
 print(with_vat)
+
+
+#tar2
+#see first lines in file
+
+#tar3

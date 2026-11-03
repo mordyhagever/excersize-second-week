@@ -11,3 +11,15 @@ def apply_discount(amount, percent):
 
 
 #tar2
+#check first lines in "main_modules" file
+
+
+#tar3
+#1
+import math
+# print(math.sqrt(81))
+# print(round(math.pi, 2))
+#2
+import random
+# print(random.randint(1,6))
+
